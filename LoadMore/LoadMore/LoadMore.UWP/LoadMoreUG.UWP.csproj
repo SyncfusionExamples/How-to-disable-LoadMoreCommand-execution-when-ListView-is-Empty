@@ -11,8 +11,8 @@
     <AssemblyName>LoadMoreUG.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
@@ -143,24 +143,15 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>16.4.0.48</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.DataSource">
-      <Version>16.4.0.48</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.GridCommon">
-      <Version>16.4.0.48</Version>
-    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>16.4.0.48</Version>
+      <Version>18.4.0.44</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LoadMoreUG\LoadMoreUG.csproj">
-      <Project>{CCA7EEC1-2CEE-4FD2-9168-EC25253BA49D}</Project>
+    <ProjectReference Include="..\LoadMore\LoadMoreUG.csproj">
+      <Project>{44b68b67-946b-43f8-998a-cabbd71fce82}</Project>
       <Name>LoadMoreUG</Name>
     </ProjectReference>
   </ItemGroup>

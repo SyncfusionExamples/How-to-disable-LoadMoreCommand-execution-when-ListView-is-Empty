@@ -16,7 +16,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -49,24 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>16.4.0.48</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.DataSource">
-      <Version>16.4.0.48</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.GridCommon">
-      <Version>16.4.0.48</Version>
-    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>16.4.0.48</Version>
+      <Version>18.4.0.44</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="27.0.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -104,8 +90,8 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LoadMoreUG\LoadMoreUG.csproj">
-      <Project>{CCA7EEC1-2CEE-4FD2-9168-EC25253BA49D}</Project>
+    <ProjectReference Include="..\LoadMore\LoadMoreUG.csproj">
+      <Project>{44b68b67-946b-43f8-998a-cabbd71fce82}</Project>
       <Name>LoadMoreUG</Name>
     </ProjectReference>
   </ItemGroup>
